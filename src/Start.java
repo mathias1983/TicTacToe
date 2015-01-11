@@ -1,7 +1,7 @@
 
 
 import java.util.Scanner;
-import org.joda.time.LocalTime;
+
 
 /**
  * Created by mathias on 19.10.2014.
@@ -41,7 +41,8 @@ public class Start {
 
     }
 
-    private static void printGameDraw( ){ LocalTime currentTime = new LocalTime();
+    private static void printGameDraw( ){
+
         System.out.println( "!!!!!!!!!!!!!!ENDE!!!!!!!!!!!!!!!!" );
         System.out.println( "Unentschieden" );
         System.out.println( "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!" );

@@ -13,7 +13,7 @@ public class GridPrinter {
 
     private static void printCells( String[] grid ){
         String line = "";
-        LocalTime currentTime = new LocalTime();
+        //LocalTime currentTime = new LocalTime();
 
         for( int i = 0; i < grid.length; ++i ){
             String value = getPrintableValue(grid[i]);
