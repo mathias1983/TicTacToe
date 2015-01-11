@@ -5,6 +5,9 @@ import java.sql.Array;
  */
 public class GridData {
 
+
+
+    
     private String[] data;
 
     public GridData( int fields ){
